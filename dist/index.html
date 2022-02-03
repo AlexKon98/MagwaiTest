@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="menu" class="menu">
+        <a href="#" class="menu__link">Услуги</a>
+        <a href="#" class="menu__link">Абонементы</a>
+        <a href="#" class="menu__link">Почему мы</a>
+        <a href="#" class="menu__link">Оборудование</a>
+        <a href="#" class="menu__link">Акции</a>
+        <a href="#" class="menu__link">FAQ</a>
+        <a href="#" class="menu__link">Контакты</a>
+        <div class="menu__flex">
+            <button class="menu__phone-btn">
+                <svg width="21" height="20" viewbox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.5318 14.2139L15.254 12.491C15.486 12.2618 15.7794 12.1049 16.0988 12.0394C16.4182 11.9739 16.7497 12.0025 17.0531 12.1218L19.152 12.9602C19.4586 13.0847 19.7215 13.2972 19.9076 13.5709C20.0937 13.8447 20.1946 14.1674 20.1976 14.4985V18.3442C20.1958 18.5694 20.1485 18.7919 20.0585 18.9983C19.9685 19.2047 19.8377 19.3908 19.6739 19.5453C19.5101 19.6998 19.3168 19.8195 19.1056 19.8973C18.8943 19.9751 18.6695 20.0093 18.4447 19.9979C3.73683 19.0826 0.769122 6.62239 0.207871 1.85368C0.181817 1.6195 0.205622 1.38246 0.277718 1.15814C0.349815 0.933831 0.468569 0.727331 0.62617 0.55223C0.78377 0.377128 0.976644 0.237394 1.1921 0.142219C1.40756 0.0470438 1.64072 -0.00141458 1.87625 3.14343e-05H5.58973C5.92111 0.0010127 6.24461 0.101149 6.51863 0.287561C6.79266 0.473973 7.00467 0.738135 7.1274 1.04607L7.96544 3.14584C8.08864 3.44817 8.12008 3.78011 8.05581 4.10021C7.99155 4.4203 7.83443 4.71436 7.60408 4.94565L5.88189 6.66854C5.88189 6.66854 6.87369 13.3832 13.5318 14.2139Z" fill="#717171"/>
+                </svg>
+            </button>
+            <button class="menu__btn yellow-btn">Оставить зявку</button>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container">
+            <button id="menu-btn" class="header__menu-btn">
+                <svg width="31" height="19" viewbox="0 0 31 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.0833319 1.7436C0.0833319 1.03319 0.770917 0.458392 1.61729 0.458392L13.966 0.458391C14.3729 0.458391 14.763 0.593798 15.0507 0.834821C15.3384 1.07584 15.5 1.40274 15.5 1.7436C15.5 2.08446 15.3384 2.41136 15.0507 2.65238C14.763 2.8934 14.3729 3.02881 13.966 3.02881L1.61729 3.02881C0.769376 3.02881 0.083332 2.45402 0.0833319 1.7436Z" fill="white"/>
+                    <path d="M0.0831622 9.49995C0.0831621 8.78953 0.770746 8.21474 1.61712 8.21474L29.3825 8.21474C29.7894 8.21474 30.1795 8.35015 30.4672 8.59117C30.7549 8.83219 30.9165 9.15909 30.9165 9.49995C30.9165 9.84081 30.7549 10.1677 30.4672 10.4087C30.1795 10.6498 29.7894 10.7852 29.3825 10.7852L1.61712 10.7852C0.769205 10.7852 0.0831623 10.2091 0.0831622 9.49995Z" fill="white"/>
+                    <path d="M1.61713 15.9711C1.2103 15.9711 0.820127 16.1065 0.532455 16.3475C0.244781 16.5885 0.0831679 16.9154 0.0831679 17.2563C0.0831679 17.5972 0.244781 17.9241 0.532455 18.1651C0.820127 18.4061 1.2103 18.5415 1.61713 18.5415L20.1325 18.5415C20.334 18.5415 20.5335 18.5083 20.7196 18.4437C20.9057 18.3791 21.0748 18.2844 21.2172 18.1651C21.3597 18.0457 21.4726 17.9041 21.5497 17.7481C21.6268 17.5922 21.6665 17.4251 21.6665 17.2563C21.6665 17.0875 21.6268 16.9204 21.5497 16.7645C21.4726 16.6085 21.3597 16.4669 21.2172 16.3475C21.0748 16.2282 20.9057 16.1335 20.7196 16.0689C20.5335 16.0043 20.334 15.9711 20.1325 15.9711L1.61713 15.9711Z" fill="white"/>
+                </svg>
+            </button>
+            <a class="header__logo" href="#">
+                <img class="header__img" src="./img/header-logo.svg" alt="">
+            </a>
+            <nav class="header__nav">
+                <a href="#" class="header__link">Услуги</a>
+                <a href="#" class="header__link">Абонементы</a>
+                <a href="#" class="header__link">Почему мы</a>
+                <a href="#" class="header__link">Оборудование</a>
+                <a href="#" class="header__link">Акции</a>
+                <a href="#" class="header__link">FAQ</a>
+                <a href="#" class="header__link">Контакты</a>
+            </nav>
+            <div class="header__wrapper">
+                <button class="header__phone-btn">
+                    <svg width="21" height="20" viewbox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.5318 14.2139L15.254 12.491C15.486 12.2618 15.7794 12.1049 16.0988 12.0394C16.4182 11.9739 16.7497 12.0025 17.0531 12.1218L19.152 12.9602C19.4586 13.0847 19.7215 13.2972 19.9076 13.5709C20.0937 13.8447 20.1946 14.1674 20.1976 14.4985V18.3442C20.1958 18.5694 20.1485 18.7919 20.0585 18.9983C19.9685 19.2047 19.8377 19.3908 19.6739 19.5453C19.5101 19.6998 19.3168 19.8195 19.1056 19.8973C18.8943 19.9751 18.6695 20.0093 18.4447 19.9979C3.73683 19.0826 0.769122 6.62239 0.207871 1.85368C0.181817 1.6195 0.205622 1.38246 0.277718 1.15814C0.349815 0.933831 0.468569 0.727331 0.62617 0.55223C0.78377 0.377128 0.976644 0.237394 1.1921 0.142219C1.40756 0.0470438 1.64072 -0.00141458 1.87625 3.14343e-05H5.58973C5.92111 0.0010127 6.24461 0.101149 6.51863 0.287561C6.79266 0.473973 7.00467 0.738135 7.1274 1.04607L7.96544 3.14584C8.08864 3.44817 8.12008 3.78011 8.05581 4.10021C7.99155 4.4203 7.83443 4.71436 7.60408 4.94565L5.88189 6.66854C5.88189 6.66854 6.87369 13.3832 13.5318 14.2139Z" fill="#717171"/>
+                    </svg>
+                </button>
+                <button class="header__popup-btn yellow-btn">Оставить заяку</button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1">
+                        <div class="container">
+                            <h2 class="swiper__heading">ПОЛЕТ ИЛОНА МАСКА<span>И DOGIE COIN</span></h2>
+                            <p class="swiper__text">В прошлый четверг все офигели от полета DOGIE COIN на марс.</p>
+                            <button class="swiper__btn yellow-btn">Оставить заяку</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide2">
+                        <div class="container">
+                            <h2 class="swiper__heading">DOGIE COIN<span>УПАЛ</span></h2>
+                            <p class="swiper__text">Все в шоке, я потерял все деньги</p>
+                            <button class="swiper__btn yellow-btn">Оставить заяку</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide3">
+                        <div class="container">
+                            <h2 class="swiper__heading">Эпическое возвращения<span>на хаи</span></h2>
+                            <p class="swiper__text">Все в шоке, я снова богат</p>
+                            <button class="swiper__btn yellow-btn">Оставить заяку</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </section>
+        <section class="cards">
+            <div class="container">
+                <h2 class="cards__heading">Карточки</h2>
+                <ul class="cards__list" id="posts">
+                    <li class="cards__item">
+                        <img class="cards__img" src="./img/card-1.png" alt="">
+                        <div class="cards__content">
+                            <h3 class="cards__heading_low">BRIDGE</h3>
+                            <div class="cards__text_light">
+                                How to increase your productivity with a Music
+                            </div>
+                            <div class="cards__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                            </div>
+                            <div class="cards__author">Posted by <span>Eugenia</span>, on July 24, 2019</div>
+                            <a href="#" class="cards__link">Continue reading</a>
+                        </div>
+                    </li>
+                    <li class="cards__item">
+                        <img class="cards__img" src="./img/card-2.png" alt="">
+                        <div class="cards__content">
+                            <h3 class="cards__heading_low">WATER</h3>
+                            <div class="cards__text_light">
+                                How to increase your productivity with a Music
+                            </div>
+                            <div class="cards__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                            </div>
+                            <div class="cards__author">Posted by <span>Eugenia</span>, on July 24, 2019</div>
+                            <a href="#" class="cards__link">Continue reading</a>
+                        </div>
+                    </li>
+                    <li class="cards__item">
+                        <img class="cards__img" src="./img/card-3.png" alt="">
+                        <div class="cards__content">
+                            <h3 class="cards__heading_low">BRIDGE</h3>
+                            <div class="cards__text_light">
+                                How to increase your productivity with a Music
+                            </div>
+                            <div class="cards__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                            </div>
+                            <div class="cards__author">Posted by <span>Eugenia</span>, on July 24, 2019</div>
+                            <a href="#" class="cards__link">Continue reading</a>
+                        </div>
+                    </li>
+                    <li class="cards__item">
+                        <img class="cards__img" src="./img/card-4.png" alt="">
+                        <div class="cards__content">
+                            <h3 class="cards__heading_low">BRIDGE</h3>
+                            <div class="cards__text_light">
+                                How to increase your productivity with a Music
+                            </div>
+                            <div class="cards__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                            </div>
+                            <div class="cards__author">Posted by <span>Eugenia</span>, on July 24, 2019</div>
+                            <a href="#" class="cards__link">Continue reading</a>
+                        </div>
+                    </li>
+                    <li class="cards__item">
+                        <img class="cards__img" src="./img/card-5.png" alt="">
+                        <div class="cards__content">
+                            <h3 class="cards__heading_low">BRIDGE</h3>
+                            <div class="cards__text_light">
+                                How to increase your productivity with a Music
+                            </div>
+                            <div class="cards__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                            </div>
+                            <div class="cards__author">Posted by <span>Eugenia</span>, on July 24, 2019</div>
+                            <a href="#" class="cards__link">Continue reading</a>
+                        </div>
+                    </li>
+                    <li class="cards__item">
+                        <img class="cards__img" src="./img/card-6.png" alt="">
+                        <div class="cards__content">
+                            <h3 class="cards__heading_low">FOREST</h3>
+                            <div class="cards__text_light">
+                                How to increase your productivity with a Music
+                            </div>
+                            <div class="cards__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                            </div>
+                            <div class="cards__author">Posted by <span>Eugenia</span>, on July 24, 2019</div>
+                            <a href="#" class="cards__link">Continue reading</a>
+                        </div>
+                    </li>
+                    <li class="cards__item">
+                        <img class="cards__img" src="./img/card-7.png" alt="">
+                        <div class="cards__content">
+                            <div class="cards__text_light">
+                                How to increase your productivity with a Music
+                            </div>
+                            <div class="cards__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                            </div>
+                            <div class="cards__author">Posted by <span>Eugenia</span>, on July 24, 2019</div>
+                            <a href="#" class="cards__link">Continue reading</a>
+                        </div>
+                    </li>
+                    <li class="cards__item">
+                        <img class="cards__img" src="./img/card-8.png" alt="">
+                        <div class="cards__content">
+                            <h3 class="cards__heading_low">NATURE</h3>
+                            <div class="cards__text_light">
+                                How to increase your productivity with a Music
+                            </div>
+                            <div class="cards__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                            </div>
+                            <div class="cards__author">Posted by <span>Eugenia</span>, on July 24, 2019</div>
+                            <a href="#" class="cards__link">Continue reading</a>
+                        </div>
+                    </li>
+                    <li class="cards__item">
+                        <img class="cards__img" src="./img/card-9.png" alt="">
+                        <div class="cards__content">
+                            <h3 class="cards__heading_low">NATURE</h3>
+                            <div class="cards__text_light">
+                                How to increase your productivity with a Music
+                            </div>
+                            <div class="cards__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                            </div>
+                            <div class="cards__author">Posted by <span>Eugenia</span>, on July 24, 2019</div>
+                            <a href="#" class="cards__link">Continue reading</a>
+                        </div>
+                    </li>
+                    <li class="cards__item">
+                        <img class="cards__img" src="./img/card-10.png" alt="">
+                        <div class="cards__content">
+                            <h3 class="cards__heading_low">NATURE</h3>
+                            <div class="cards__text_light">
+                                How to increase your productivity with a Music
+                            </div>
+                            <div class="cards__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                            </div>
+                            <div class="cards__author">Posted by <span>Eugenia</span>, on July 24, 2019</div>
+                            <a href="#" class="cards__link">Continue reading</a>
+                        </div>
+                    </li>
+                </ul>
+                <button id="load-btn" class="cards__btn yellow-btn">Загрузить еще</button>
+            </div>
+        </section>
+    </main>
+    <div class="popup">
+        <div class="popup__wrapper">
+            <img class="popup__img" src="./img/moon.png" alt="">
+            <form class="popup__form js-form form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                <button class="popup__close">
+                    <svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.0233 13L25.2772 0.777344C25.449 0.574219 25.3045 0.265625 25.0389 0.265625H21.9217C21.7381 0.265625 21.5623 0.347656 21.4412 0.488281L12.9842 10.5703L4.52717 0.488281C4.40998 0.347656 4.2342 0.265625 4.0467 0.265625H0.929512C0.663887 0.265625 0.519356 0.574219 0.691231 0.777344L10.9451 13L0.691231 25.2227C0.652729 25.2679 0.628029 25.3233 0.620062 25.3822C0.612094 25.4411 0.621195 25.501 0.646283 25.5549C0.671371 25.6088 0.711394 25.6544 0.761598 25.6862C0.811803 25.718 0.87008 25.7347 0.929512 25.7344H4.0467C4.23029 25.7344 4.40607 25.6523 4.52717 25.5117L12.9842 15.4297L21.4412 25.5117C21.5584 25.6523 21.7342 25.7344 21.9217 25.7344H25.0389C25.3045 25.7344 25.449 25.4258 25.2772 25.2227L15.0233 13Z" fill="#717171"/>
+                    </svg>
+                </button>
+                <div class="popup__content">
+                    <h4 class="popup__heading">Оставьте заявку</h4>
+                    <p class="popup__text">
+                        Оставьте заявку и наш менеджер свяжется с вами в течение 10 -15 минут
+                    </p>
+                    <div class="form-group popup__form-wrapper">
+                        <input class="popup__input" name="name" type="text" id="name" data-validate-field="name">
+                        <label class="popup__label" for="name" id="name-label">Ваше имя*</label>
+                    </div>
+                    <div class="form-group popup__form-wrapper">
+                        <input class="popup__input" name="email" data-validate-field="mail" type="email" id="email">
+                        <label class="popup__label" for="name" id="email-label">Email*</label>
+                    </div>
+                    <div class="form-group popup__form-wrapper">
+                        <input class="popup__input popup__tel" data-validate-field="tel" data-validate-rules="phone" name="tel" type="tel" id="tel" placeholder="+7(___) ___ __ __">
+                    </div>
+                    <div class="form-group popup__form-wrapper">
+                        <textarea data-validate-field="comment" data-validate-rules="comment" class="popup__input popup__comment" name="comment" id="comment"></textarea>
+                        <label class="popup__label" for="comment" id="comment-label">Ваш вопрос*</label>
+                    </div>
+                    <div class="popup__flex">
+                        <button class="popup__submit yellow-btn">Оставить заявку</button>
+                        <div class="popup__agreement">
+                            Нажимая на кнопку “Оставить заявку” вы соглашаетесь
+                            <a href="#">с “Пользовательским соглашением”</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="test" style="color: white;"></div>
+    <script src="./js/just-validate.min.js"></script>
+    <script src="./js/inputmask.min.js"></script>
+    <script src="./js/popup.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/cardsLoader.js"></script>
+</body>
+
+</html>
